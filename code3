@@ -16,3 +16,9 @@ show(){
  echo "Your team result is: $result"
  }
  sum
+
+ list(){
+  local name="$@"
+  echo "$name !! Eagle Eyes"
+}
+list "$@"
