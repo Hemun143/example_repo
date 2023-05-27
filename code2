@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+#positional parameter
+
+name="$@"
+
+echo "$0 Nice!! $name"
